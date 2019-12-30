@@ -34,6 +34,7 @@
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
+          <fork>true</fork>
           <source>1.4</source>
           <target>1.4</target>
         </configuration>
